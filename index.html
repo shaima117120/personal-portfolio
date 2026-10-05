@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1> My Personal Portfolio</h1>
+        <nav>
+            <ul>
+                <li> <a href="#about"> About</a></li>
+                <li> <a href="#project"> Project</a></li>
+                <li> <a href="#contact"> Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2> About Me</h2>
+            <img src="./image/shaima.jpeg" alt="girl">
+            <p>
+                My name is Shaima Thapa Magar, and I am a student who is interested in learning web development and
+                creating simple websites. This project is a personal portfolio website developed using semantic HTML5
+                elements as part of my academic work. The main goal of this project is to understand how to properly
+                structure a webpage using meaningful tags like header, nav, main, section, article, and footer without
+                using any CSS or styling. Through this project, I learned how to organize content clearly, create
+                internal navigation links, display projects, and design a basic contact form while following proper HTML
+                standards.
+            </p>
+            <h3>Skills</h3>
+            <dl>
+                <dt> HTML</dt>
+                <dd> Creating structured</dd>
+                <dt> CSS</dt>
+                <dd> Basic styling knowledge</dd>
+            </dl>
+        </section>
+        <section id="project">
+            <h2> Projects</h2>
+            <div class="project-container">
+            <article>
+                <h3> Project 1: Simple Website</h3>
+                <p> A basic HTML website created as a beginner project.</p>
+                <p>
+                <a href="https://github.com/shaima117120/project1" target="_blank"> View Repository</a>
+                </p>
+            </article>
+            <article>
+                <h3> Project 2:Portfolio Page</h3>
+                <p> A personal portfolio page built using semantic HTML.</p>
+                <p>
+                <a href="https://github.com/shaima117120/project2" target="_blank"> View  Repository"</a>
+                </p>
+            </article>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Shaima Thapa Magar</p>
+        <p>
+            <a href="https://github.com/shaima117120" target="_blank">
+                https://github.com/shaima117120
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

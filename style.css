@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+body 
+{ 
+    margin: 0; 
+    background-color: white;
+    color: black; 
+} 
+header 
+{ 
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 25px; 
+    margin-bottom: 20px;
+} 
+nav ul 
+{
+    display: flex; 
+    flex-direction: row;
+    justify-content:center ; 
+    gap: 30px; 
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+ } 
+  nav a:hover
+{ 
+    color: white;
+     text-decoration: none; 
+}
+main 
+{ 
+    width: 90%;
+    max-width: 1000px; 
+    margin: 30px auto; 
+}
+ section 
+{
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px; 
+    border-radius: 8px; 
+}
+h2 
+{
+     color: darkblue
+}  
+#about img 
+{
+    width: 160px; 
+    height: 160px; 
+    border-radius: 50%;
+    display:block;
+    margin: 15px auto;
+}
+ .project-container
+{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+}
+article 
+{
+    background-color: #eef2f7;
+    padding: 20px;
+    border-radius: 8px; 
+}
+input, textarea
+{ 
+    width: 100%;
+    padding: 10px; 
+    margin: 5px 0 15px; 
+} 
+button:hover
+{ 
+    background-color: #263b5a; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+}
+footer a
+{ 
+    background-color: #263b5a; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+} 
+@media (max-width: 425px) 
+{ 
+    nav ul 
+    { 
+        flex-direction: column; 
+        gap: 10px; 
+    } 
+} 
